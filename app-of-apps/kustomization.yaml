@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  rhtap/gitops: test-devai25-nov5 
+  janus-idp.io/tekton: test-devai25-nov5
+  backstage.io/kubernetes-id: test-devai25-nov5
+  backstage.io/kubernetes-namespace: rhdh-app 
+  app.kubernetes.io/part-of: test-devai25-nov5
+resources: 
+- application-dev.yaml

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-devai25-nov5-database-config
+data:
+  VECTORDB_HOST: "test-devai25-nov5-database"
+  VECTORDB_PORT: ""
